@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>SPAR Agencies</title>
+        <style>
+            header{
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            nav li{
+                font-size: 30px;
+                padding: 20px 50px 20px 50px;
+                display: inline-block;
+            }
+
+            .web1{
+                display:inline;
+                width: 50%;
+                float: left;
+                text-align: center;
+            }
+            .web2{
+                text-align: center;
+            }
+            .web2 a{
+                text-decoration: none;
+                color: black;
+            }
+            .web2 a:hover{
+                color: blue;
+                font-size: 20px;
+            }
+            .site1{
+                background-color: antiquewhite;
+            }
+            div.pic{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            b,strong{
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+            }
+            table,th,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th,td{
+                width: 33%;
+            }
+            footer{
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+
+            footer li{
+                padding: 10px 20px 10px 20px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <ul style="list-style-type: none;">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Clients</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        </header>
+        <div class="site1">
+           <div class="web1">
+              <h2>My Bussiness <em>website</em></h2>
+           </div>
+           <div class="web2">
+            <a href="tel:1-909-090-898"><h2>Call Us Today!<br><em>1-909-090-898</em></h2></a>
+            </div>
+        </div>
+        
+        <div class="pic">
+        <img src="Images/Office.jpg" alt="Team Discussion" width="1200px" height="600px">
+        </div><br><br>
+
+        <b>This is company website</b>
+        <strong>Dream.Work.Plan.Create</strong>
+
+        <h3 style="text-align: center;"><a href="mailto:someone@gmail.com"><u>Contact Us Today!</u></a></h3>
+        <section style="text-align: center;">
+            <p>Register for our newsletter:</p>
+            <form name="Contact" method="post" action="send.php">
+            <input type="email" name="email" placeholder="someone@gmail.com">
+            <input type="submit" name="submit" value="submit">
+            </form>
+        </section><br>
+
+        <table>
+            <tr>
+                <th>ABOUT US</th>
+                <th>OUR VISION</th>
+                <th>SERVICES</th>
+            </tr>
+            <tr>
+                <td>It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content 
+                here', making it look like readable English.</td>
+                <td>It is a long established fact that a reader will be distracted
+                    by the readable content of a page when looking at its layout.
+                    The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content 
+                    here', making it look like readable English.</td>
+                <td>
+                    <ul>
+                        <li>Stratergy and Organization</li>
+                        <li>Coporative Development</li>
+                        <li>Globilization</li>
+                        <li>Operation Managment</li>
+                        <li>Croporate Finance </li>
+                        <li>IT Managment</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <footer>
+            <ul style="list-style-type: none;">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Clients</li>
+                <li>Contact Us</li>
+            </ul>
+            <p>&copy;2024 by my Bussiness website</p>
+        </footer>
+    </body>
+</html>
